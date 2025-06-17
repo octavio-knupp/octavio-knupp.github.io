@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-selecionado{
+
+    color: aqua;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: teal;
+    
+}
+header{
+background-color: rgba(0, 0, 0, 0.767);
+padding: 20px;
+display: flex;
+justify-content: space-around;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+header a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+main div {
+    padding: 20px;
+}
+main div ul li{
+    padding: 20px;
+}
+
+main div ul li:hover{
+    color: aqua;
+    text-decoration: underline;
+}

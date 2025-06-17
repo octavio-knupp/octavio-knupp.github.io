@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-selecionado{
+
+    color: aqua;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: teal;
+    
+}
+header{
+background-color: rgba(0, 0, 0, 0.767);
+padding: 20px;
+display: flex;
+justify-content: space-around;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+header a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+.produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+div{
+    text-align: center;
+    border: solid 10px;
+    width: 200px;
+
+}
+div h3{
+    background-color: antiquewhite;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+div img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
